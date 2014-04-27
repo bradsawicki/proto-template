@@ -1,0 +1,70 @@
+
+.style-guide {
+    padding-top: $base*2;
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        
+        .wrapper {
+            max-width: none;
+        }
+        
+    }
+
+}
+
+
+.item {
+    margin-bottom: $base;
+}
+
+.list-colors {
+    margin-bottom: 0;
+}
+
+.list-colors [class*="col-"] {
+    position: relative;
+    background: #fff;
+    
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 18px;
+        bottom: 0;
+        left: 18px;
+        border: 1px solid $lt-grey;
+    }
+}
+
+.color-swatch {
+    position: relative;
+    
+    &:after {
+        content: "";
+        display: block;
+        padding-bottom: 75%;
+    }
+    
+    &.red {
+        background: $red;
+    }
+    &.blue {
+        background: $blue;
+    }
+    &.green {
+        background: $green;
+    }
+    &.orange {
+        background: $orange;
+    }
+}
+
+.color-hex {
+    padding: 1em 0;
+    text-align: center;
+}

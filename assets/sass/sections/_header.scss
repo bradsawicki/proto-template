@@ -1,0 +1,145 @@
+
+.header {
+    background: lighten($grey, 21%);
+    border-bottom: 1px solid $lt-grey;
+
+    .wrapper {
+        padding: $base 0;
+    }
+
+}
+
+.logo {
+    float: left;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: $bold;
+    
+    a {
+        color: $dk-grey;
+        &:hover {
+            color: $blue;
+        }
+    }
+}
+
+.main-nav {
+    position: relative;
+    float: right;
+
+    @include bp-max-width($xlarge) {
+        margin-top: 32px;
+    }
+    @include bp-max-width($xsmall) {
+        margin-top: 20px;
+    }
+    @include bp-max-width($tiny) {
+        margin-top: 16px;
+    }
+}
+
+@include bp-max-width($xlarge) {
+    .main-nav ul {
+        display: none;
+        position: absolute;
+        top: 36px;
+        right: 0;
+        z-index: 20;
+        background: $red;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        overflow: hidden;
+        &.show {
+            display: block;
+        }
+    }
+}
+
+
+.main-nav li {
+    float: left;
+    margin-left: 50px;
+
+    @include bp-max-width($xlarge) {
+        float: none;
+        margin: 0;
+    }
+}
+
+.main-nav li a {
+    display: block;
+    color: $dk-grey;
+
+    &:hover, &.active {
+        color: $dk-blue;
+    }
+
+    @include bp-max-width($xlarge) {
+        width: 240px;
+        padding: 10px 20px;
+        color: #fff;
+        &:hover, &.active {
+            color: #fff;
+            background: $dk-red;
+        }
+    }
+
+}
+
+/** Mobile Menu Button **/
+
+.mobile-menu-btn {
+    display: none;
+    position: relative;
+    padding: 10px 14px 10px 40px;
+    text-transform: uppercase;
+    &.active {
+        color: #fff;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    @include bp-max-width($xlarge) {
+        display: block;
+    }
+}
+
+.mobile-menu-btn .icon-menu {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    background: none;
+    .bar {
+        display: block;
+        width: 20px;
+        height: 3px;
+        margin-bottom: 3px;
+        background: #fff;
+        border-radius: 2px;
+    }
+}
+
+.mobile-menu-btn.active .bar:nth-child(1) {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    background-color: #fff;
+    transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+}
+
+.mobile-menu-btn.active .bar:nth-child(2) {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    background-color: #fff;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+}
+
+.mobile-menu-btn.active .bar:nth-child(3) {
+    display: none;
+}
