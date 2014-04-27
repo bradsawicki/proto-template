@@ -29,6 +29,8 @@
 }
 
 .list-colors [class*="col-"] {
+    max-width: 50%;
+    margin-bottom: $base;
     position: relative;
     background: #fff;
     
@@ -36,10 +38,16 @@
         content: "";
         position: absolute;
         top: 0;
-        right: 18px;
+        right: 6%;
         bottom: 0;
-        left: 18px;
+        left: 6%;
         border: 1px solid $lt-grey;
+
+        @include bp-min-width($medium) {
+            right: 18px;
+            left: 18px;
+        }
+        
     }
 }
 
@@ -67,8 +75,12 @@
 }
 
 .color-info {
-    padding: 1em 0;
+    padding: 0.5em 0;
     text-align: center;
+
+    @include bp-min-width($medium) {
+        padding: 1em 0;
+    }
     
     .color-hex {
         font-size: 14px;

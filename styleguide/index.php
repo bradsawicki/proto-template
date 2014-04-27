@@ -60,27 +60,27 @@
         
         <div class="item">
             <p class="label">42px</p>
-            <h1>Headline One</h1>
+            <h1>Bacon is the best meat to eat</h1>
         </div>
         
         <div class="item">
             <p class="label">32px</p>
-            <h2>Headline Two</h2>
+            <h2>Bacon is the best meat to eat</h2>
         </div>
 
         <div class="item">
             <p class="label">24px</p>
-            <h3>Headline Three</h3>
+            <h3>Bacon is the best meat to eat</h3>
         </div>
         
         <div class="item">
             <p class="label">18px</p>
-            <h4>Headline Four</h4>
+            <h4>Bacon is the best meat to eat</h4>
         </div>        
 
         <div class="item">
             <p class="label">16px</p>
-            <h5>Headline Five</h5>
+            <h5>Bacon is the best meat to eat</h5>
         </div>
                 
         <h2 class="title-sub-section">Paragraphs</h2>
@@ -132,6 +132,18 @@
                 <input type="email" id="email">
             </div>
             <div class="form-item">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="form-item form-select">
+                <label for="password">Budget</label>
+                <select id="budget">
+                    <option>$10,000 - $20,000</option>
+                    <option>$20,000 - $50,000</option>
+                    <option>$50,000+</option>
+                </select>
+            </div>
+            <div class="form-item">
                 <label for="message">Message</label>
                 <textarea id="message"></textarea>
             </div>
@@ -160,6 +172,45 @@
         <div class="item">
             <p class="label">Large Button</p>
             <a href="" class="btn btn-large">Say Hello!</a>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="components">
+    <div class="wrapper">
+    
+        <h1 class="title-section">Compents</h1>
+        
+        <h2 class="title-sub-section">Article Block</h2>
+        
+        <div class="grid">
+        
+            <article class="col-1-3 news-post">
+                <div class="post-thumb"><img src="/assets/images/img-300-01.jpg"></div>
+                <div class="post-info">
+                    <p class="post-date">JUN 11, 2014</p>
+                    <h3 class="post-title">Big news is happening every day!</h3>
+                </div>
+            </article>
+    
+            <article class="col-1-3 news-post">
+                <div class="post-thumb"><img src="/assets/images/img-300-02.jpg"></div>
+                <div class="post-info">
+                    <p class="post-date">JUN 11, 2014</p>
+                    <h3 class="post-title">Big news is happening every day!</h3>
+                </div>
+            </article>
+    
+            <article class="col-1-3 news-post">
+                <div class="post-thumb"><img src="/assets/images/img-300-03.jpg"></div>
+                <div class="post-info">
+                    <p class="post-date">JUN 11, 2014</p>
+                    <h3 class="post-title">Big news is happening every day!</h3>
+                </div>
+            </article>
+        
         </div>
 
     </div>

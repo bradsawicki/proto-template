@@ -3,7 +3,12 @@
     background: $navy;
 
     .wrapper {
-        padding: $base 0;
+        padding: $base/2 0;
+
+        @include bp-min-width($medium) {
+            padding: $base 0;
+        }
+
     }
 
 }

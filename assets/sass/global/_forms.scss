@@ -37,6 +37,7 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="password"],
 textarea,
 select {
 	width: 100%;
@@ -52,16 +53,46 @@ select {
 
 input[type="text"]:focus,
 input[type="email"]:focus,
+input[type="password"]:focus,
 textarea:focus {
 	border: 1px solid $dk-grey;
 }
 
 textarea {
 	height: $base*4;
+	resize: none;
 
     @include bp-min-width($medium) {
         height: $base*6;
     	max-width: 480px;
+    }
+}
+
+
+/** Select ============**/
+
+.form-select {
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        bottom: 17px;
+        right: 17px;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid $navy;
+    }
+}
+
+
+.form-select select {
+    @include appearance(none);
+	font-family: $sans;
+    text-indent: 0.01px;
+    text-overflow: '';
+
+    @include bp-max-width($large) {
+        padding-left: 10px;
     }
 }
 
@@ -148,6 +179,7 @@ fieldset .title,
 
 input[type="submit"],
 button {
+    @include transition(background 0.15s ease-in);
 	border: none;
 	font: $semi 1em/1.5em $sans;
 	cursor: pointer;
