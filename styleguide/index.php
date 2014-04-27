@@ -183,33 +183,91 @@
     
         <h1 class="title-section">Compents</h1>
         
-        <h2 class="title-sub-section">Article Block</h2>
+        <div class="block-component">
         
-        <div class="grid">
+            <h2 class="title-sub-section">Article Block - 4 Column</h2>
+            
+            <div class="grid">
+            
+                <article class="col-1-4 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-01.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">JUN 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
         
-            <article class="col-1-3 news-post">
-                <div class="post-thumb"><img src="/assets/images/img-300-01.jpg"></div>
-                <div class="post-info">
-                    <p class="post-date">JUN 11, 2014</p>
-                    <h3 class="post-title">Big news is happening every day!</h3>
-                </div>
-            </article>
+                <article class="col-1-4 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-02.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">JUN 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+        
+                <article class="col-1-4 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-03.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">JUN 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
     
-            <article class="col-1-3 news-post">
-                <div class="post-thumb"><img src="/assets/images/img-300-02.jpg"></div>
-                <div class="post-info">
-                    <p class="post-date">JUN 11, 2014</p>
-                    <h3 class="post-title">Big news is happening every day!</h3>
-                </div>
-            </article>
-    
-            <article class="col-1-3 news-post">
-                <div class="post-thumb"><img src="/assets/images/img-300-03.jpg"></div>
-                <div class="post-info">
-                    <p class="post-date">JUN 11, 2014</p>
-                    <h3 class="post-title">Big news is happening every day!</h3>
-                </div>
-            </article>
+                <article class="col-1-4 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-04.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">JUN 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+            
+            </div>
+
+        </div>
+        
+        <div class="block-component">
+
+            <h2 class="title-sub-section">Article Block - 3 Column</h2>
+            
+            <div class="grid">
+            
+                <article class="col-1-3 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-01.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">JUN 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+        
+                <article class="col-1-3 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-02.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">JUN 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+        
+                <article class="col-1-3 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-03.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">JUN 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+            
+            </div>
+        
+        </div>
+        
+        <div class="block-component">
+
+            <h2 class="title-sub-section">Hero</h2>
+            
+            <div class="hero">
+                <h1 class="title">Save the Day!</h1>
+                <p>Donec tristique, felis hendrerit blandit consectetur, lectus risus semper nibh, ac faucibus ligula diam a turpis. Nunc ac dapibus nunc, sit amet posuere erat.</p>
+                <p><a href="" class="btn white">Learn More</a></p>
+            </div>
         
         </div>
 

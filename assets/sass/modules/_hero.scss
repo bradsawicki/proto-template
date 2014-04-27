@@ -1,0 +1,22 @@
+
+.hero {
+    padding: $base*2 0;
+    background: $blue;
+    text-align: center;
+    color: #fff;
+    
+    .title {
+        margin-bottom: 6px;
+    }
+    
+    p {
+        max-width: 560px;
+        margin: 0 auto;
+        font-size: 18px;
+        
+        &:first-of-type {
+            margin-bottom: 1.5em;
+        }
+        
+    }
+}

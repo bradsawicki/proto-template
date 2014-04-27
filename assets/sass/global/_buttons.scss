@@ -46,6 +46,14 @@ a {
             background: $dk-orange;
         }
     }
+
+    &.white {
+        background: #fff;
+        color: $navy;
+        &:hover {
+            background: $lt-grey;
+        }
+    }
     
 }
 

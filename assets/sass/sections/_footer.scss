@@ -6,50 +6,55 @@
 }
 
 .footer-nav {
-    float: left;
+    text-align: center;
 
     li {
-        font-size: 13px;
-        line-height: 21px;
-        @include bp-max-width($small) {
-            font-size: 16px;
+        text-align: center;
+        
+        @include bp-min-width($medium) {
+            float: left;
+            margin-right: 2em;
+            font-size: 14px;
         }
     }
 
-    @include bp-max-width($small) {
-        float: none;
-        padding: 7px 0;
-        text-align: center;
-    }
 }
 
 .footer-nav a {
+    display: block;
+    padding: 0.25em 0;
+
     @include bp-max-width($small) {
-        display: block;
-        padding: 5px 0;
+        display: inline-block;
+        padding: 0;
     }
+
 }
 
 .footer .follow-us {
-    float: right;
-    .block-title {
-        margin-bottom: 16px;
-        font-size: 22px;
-        text-align: center;
-    }
+    margin-bottom: $base;
+    text-align: center;
 
-    @include bp-max-width($small) {
+    @include bp-min-width($medium) {
+        float: right;
         float: none;
-        margin-bottom: $base;
-        text-align: center;
+    }
+    
+    li {
+        @include bp-min-width($medium) {
+            float: left;
+            margin-left: 1em;
+        }
     }
 }
 
 .copyright {
     clear: both;
     padding-top: $pad;
+
     p {
         font-size: 15px;
         text-align: center;
     }
+
 }
