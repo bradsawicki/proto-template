@@ -32,6 +32,7 @@
 
 label {
 	display: block;
+	margin-bottom: 4px;
 }
 
 input[type="text"],
@@ -39,11 +40,14 @@ input[type="email"],
 textarea,
 select {
 	width: 100%;
-	max-width: 340px;
-	padding: 0.5em 1em;
+	padding: 0.5em 0.75em;
 	border: 1px solid $grey;
 	border-radius: 5px;
 	font: 400 1em/1em $sans;
+
+    @include bp-min-width($medium) {
+    	max-width: 340px;
+    }
 }
 
 input[type="text"]:focus,
@@ -53,7 +57,12 @@ textarea:focus {
 }
 
 textarea {
-	height: 5em;
+	height: $base*4;
+
+    @include bp-min-width($medium) {
+        height: $base*6;
+    	max-width: 480px;
+    }
 }
 
 
@@ -140,7 +149,7 @@ fieldset .title,
 input[type="submit"],
 button {
 	border: none;
-	font: 400 1em/1.5em $sans;
+	font: $semi 1em/1.5em $sans;
 	cursor: pointer;
 
     @include bp-max-width($small) {

@@ -9,22 +9,34 @@
             
             <div class="col-1-4">
                 <div class="color-swatch red"></div>
-                <p class="color-hex">#232343</p>
+                <div class="color-info">
+                    <p class="label">Red</p>
+                    <p class="color-hex">#232343</p>
+                </div>
             </div>
 
             <div class="col-1-4">
                 <div class="color-swatch blue"></div>
-                <p class="color-hex">#232343</p>
+                <div class="color-info">
+                    <p class="label">Blue</p>
+                    <p class="color-hex">#232343</p>
+                </div>
             </div>
 
             <div class="col-1-4">
                 <div class="color-swatch green"></div>
-                <p class="color-hex">#232343</p>
+                <div class="color-info">
+                    <p class="label">Green</p>
+                    <p class="color-hex">#232343</p>
+                </div>
             </div>
 
             <div class="col-1-4">
                 <div class="color-swatch orange"></div>
-                <p class="color-hex">#232343</p>
+                <div class="color-info">
+                    <p class="label">Orange</p>
+                    <p class="color-hex">#232343</p>
+                </div>
             </div>
             
         </div>
@@ -98,6 +110,56 @@
                 <li>List Item One</li>
                 <li>List Item One</li>
             </ol>
+        </div>
+
+    </div>
+</section>
+
+<section class="forms">
+    <div class="wrapper">
+    
+        <h1 class="title-section">Forms</h1>
+        
+        <h2 class="title-sub-section">Example</h2>
+
+        <form>
+            <div class="form-item">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-item">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="form-item">
+                <label for="message">Message</label>
+                <textarea id="message"></textarea>
+            </div>
+            <div class="form-item">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    
+
+    </div>
+</section>
+
+<section class="buttons">
+    <div class="wrapper">
+    
+        <h1 class="title-section">Buttons</h1>
+    
+        <div class="item">
+            <p class="label">Default Button</p>
+            <a href="" class="btn">Say Hello!</a>
+            <a href="" class="btn green">Say Hello!</a>
+            <a href="" class="btn red">Say Hello!</a>
+            <a href="" class="btn orange">Say Hello!</a>
+        </div>
+
+        <div class="item">
+            <p class="label">Large Button</p>
+            <a href="" class="btn btn-large">Say Hello!</a>
         </div>
 
     </div>
