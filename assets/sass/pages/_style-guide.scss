@@ -1,20 +1,22 @@
 
-.style-guide {
-    padding-top: $base*3;
-
-    .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        width: 100%;
-        
-        .wrapper {
-            max-width: none;
-        }
-        
+.nav-anchor-section {
+    padding-top: $base*2;
+    
+    @include bp-min-width($medium) {
+        padding-top: $base*3;
     }
+}
 
+.style-guide .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    
+    .wrapper {
+        max-width: none;
+    }
 }
 
 .item {

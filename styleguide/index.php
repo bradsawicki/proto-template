@@ -1,6 +1,6 @@
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/header-style.php'; ?>
 	
-<section class="colors">
+<section id="colors" class="colors nav-anchor-section">
     <div class="wrapper">
 
         <h1 class="title-section">Colors</h1>
@@ -178,7 +178,7 @@
 </section>
 
 
-<section class="components">
+<section id="components" class="components nav-anchor-section">
     <div class="wrapper">
     
         <h1 class="title-section">Compents</h1>
@@ -192,7 +192,7 @@
                 <article class="col-1-4 news-post">
                     <div class="post-thumb"><img src="/assets/images/img-300-01.jpg"></div>
                     <div class="post-info">
-                        <p class="post-date">JUN 11, 2014</p>
+                        <p class="post-date">Jun 11, 2014</p>
                         <h3 class="post-title">Big news is happening every day!</h3>
                     </div>
                 </article>
@@ -200,7 +200,7 @@
                 <article class="col-1-4 news-post">
                     <div class="post-thumb"><img src="/assets/images/img-300-02.jpg"></div>
                     <div class="post-info">
-                        <p class="post-date">JUN 11, 2014</p>
+                        <p class="post-date">Jun 11, 2014</p>
                         <h3 class="post-title">Big news is happening every day!</h3>
                     </div>
                 </article>
@@ -208,7 +208,7 @@
                 <article class="col-1-4 news-post">
                     <div class="post-thumb"><img src="/assets/images/img-300-03.jpg"></div>
                     <div class="post-info">
-                        <p class="post-date">JUN 11, 2014</p>
+                        <p class="post-date">Jun 11, 2014</p>
                         <h3 class="post-title">Big news is happening every day!</h3>
                     </div>
                 </article>
@@ -216,7 +216,7 @@
                 <article class="col-1-4 news-post">
                     <div class="post-thumb"><img src="/assets/images/img-300-04.jpg"></div>
                     <div class="post-info">
-                        <p class="post-date">JUN 11, 2014</p>
+                        <p class="post-date">Jun 11, 2014</p>
                         <h3 class="post-title">Big news is happening every day!</h3>
                     </div>
                 </article>
@@ -234,7 +234,7 @@
                 <article class="col-1-3 news-post">
                     <div class="post-thumb"><img src="/assets/images/img-300-01.jpg"></div>
                     <div class="post-info">
-                        <p class="post-date">JUN 11, 2014</p>
+                        <p class="post-date">Jun 11, 2014</p>
                         <h3 class="post-title">Big news is happening every day!</h3>
                     </div>
                 </article>
@@ -242,7 +242,7 @@
                 <article class="col-1-3 news-post">
                     <div class="post-thumb"><img src="/assets/images/img-300-02.jpg"></div>
                     <div class="post-info">
-                        <p class="post-date">JUN 11, 2014</p>
+                        <p class="post-date">Jun 11, 2014</p>
                         <h3 class="post-title">Big news is happening every day!</h3>
                     </div>
                 </article>
@@ -250,7 +250,7 @@
                 <article class="col-1-3 news-post">
                     <div class="post-thumb"><img src="/assets/images/img-300-03.jpg"></div>
                     <div class="post-info">
-                        <p class="post-date">JUN 11, 2014</p>
+                        <p class="post-date">Jun 11, 2014</p>
                         <h3 class="post-title">Big news is happening every day!</h3>
                     </div>
                 </article>
@@ -267,6 +267,16 @@
                 <h1 class="title">Save the Day!</h1>
                 <p>Donec tristique, felis hendrerit blandit consectetur, lectus risus semper nibh, ac faucibus ligula diam a turpis. Nunc ac dapibus nunc, sit amet posuere erat.</p>
                 <p><a href="" class="btn white">Learn More</a></p>
+            </div>
+        
+        </div>
+
+        <div class="block-component">
+
+            <h2 class="title-sub-section">Progress Bar</h2>
+            
+            <div class="progress">
+                <div class="progress-bar"></div>
             </div>
         
         </div>

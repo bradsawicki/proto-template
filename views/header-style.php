@@ -20,8 +20,8 @@
 			<nav class="main-nav">
     			<a href="" class="btn mobile-menu-btn">Menu <span class="icon-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></span></a>
 				<ul>
-					<li><a href="#elements">Elements</a></li>
-					<li><a href="#componennts">Components</a></li>
+					<li><a href="#">Elements</a></li>
+					<li><a href="#components">Components</a></li>
 					<li><a href="#templates">Templates</a></li>
 				</ul>
 			</nav>

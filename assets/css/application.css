@@ -666,22 +666,28 @@ button {
 /* Modules */
 /* line 2, ../sass/modules/_hero.scss */
 .hero {
-  padding: 48px 0;
+  padding: 24px 6%;
   background: #3498db;
   text-align: center;
   color: #fff;
 }
-/* line 8, ../sass/modules/_hero.scss */
+@media (min-width: 740px) {
+  /* line 2, ../sass/modules/_hero.scss */
+  .hero {
+    padding: 48px 6%;
+  }
+}
+/* line 12, ../sass/modules/_hero.scss */
 .hero .title {
   margin-bottom: 6px;
 }
-/* line 12, ../sass/modules/_hero.scss */
+/* line 16, ../sass/modules/_hero.scss */
 .hero p {
   max-width: 560px;
   margin: 0 auto;
   font-size: 18px;
 }
-/* line 17, ../sass/modules/_hero.scss */
+/* line 21, ../sass/modules/_hero.scss */
 .hero p:first-of-type {
   margin-bottom: 1.5em;
 }
@@ -759,12 +765,36 @@ button {
 }
 
 /** 3 Col **/
+/* line 2, ../sass/modules/_progress-bar.scss */
+.progress {
+  overflow: hidden;
+  height: 16px;
+  background: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 10px;
+}
+
+/* line 10, ../sass/modules/_progress-bar.scss */
+.progress-bar {
+  float: left;
+  width: 60%;
+  height: 100%;
+  background: #2ecc71;
+}
+
 /* Pages */
 /* line 2, ../sass/pages/_style-guide.scss */
-.style-guide {
-  padding-top: 72px;
+.nav-anchor-section {
+  padding-top: 48px;
 }
-/* line 5, ../sass/pages/_style-guide.scss */
+@media (min-width: 740px) {
+  /* line 2, ../sass/pages/_style-guide.scss */
+  .nav-anchor-section {
+    padding-top: 72px;
+  }
+}
+
+/* line 10, ../sass/pages/_style-guide.scss */
 .style-guide .header {
   position: fixed;
   top: 0;
@@ -772,35 +802,35 @@ button {
   z-index: 10;
   width: 100%;
 }
-/* line 12, ../sass/pages/_style-guide.scss */
+/* line 17, ../sass/pages/_style-guide.scss */
 .style-guide .header .wrapper {
   max-width: none;
 }
 
-/* line 20, ../sass/pages/_style-guide.scss */
+/* line 22, ../sass/pages/_style-guide.scss */
 .item {
   margin-bottom: 24px;
 }
 
-/* line 24, ../sass/pages/_style-guide.scss */
+/* line 26, ../sass/pages/_style-guide.scss */
 .block-component {
   margin-bottom: 72px;
 }
 
 /** COLORS =========================================**/
-/* line 31, ../sass/pages/_style-guide.scss */
+/* line 33, ../sass/pages/_style-guide.scss */
 .list-colors {
   margin-bottom: 0;
 }
 
-/* line 35, ../sass/pages/_style-guide.scss */
+/* line 37, ../sass/pages/_style-guide.scss */
 .list-colors [class*="col-"] {
   max-width: 50%;
   margin-bottom: 24px;
   position: relative;
   background: #fff;
 }
-/* line 41, ../sass/pages/_style-guide.scss */
+/* line 43, ../sass/pages/_style-guide.scss */
 .list-colors [class*="col-"]:before {
   content: "";
   position: absolute;
@@ -811,68 +841,68 @@ button {
   border: 1px solid #ecf0f1;
 }
 @media (min-width: 740px) {
-  /* line 41, ../sass/pages/_style-guide.scss */
+  /* line 43, ../sass/pages/_style-guide.scss */
   .list-colors [class*="col-"]:before {
     right: 18px;
     left: 18px;
   }
 }
 
-/* line 58, ../sass/pages/_style-guide.scss */
+/* line 60, ../sass/pages/_style-guide.scss */
 .color-swatch {
   position: relative;
 }
-/* line 61, ../sass/pages/_style-guide.scss */
+/* line 63, ../sass/pages/_style-guide.scss */
 .color-swatch:after {
   content: "";
   display: block;
   padding-bottom: 75%;
 }
-/* line 67, ../sass/pages/_style-guide.scss */
+/* line 69, ../sass/pages/_style-guide.scss */
 .color-swatch.red {
   background: #e74c3c;
 }
-/* line 70, ../sass/pages/_style-guide.scss */
+/* line 72, ../sass/pages/_style-guide.scss */
 .color-swatch.blue {
   background: #3498db;
 }
-/* line 73, ../sass/pages/_style-guide.scss */
+/* line 75, ../sass/pages/_style-guide.scss */
 .color-swatch.green {
   background: #2ecc71;
 }
-/* line 76, ../sass/pages/_style-guide.scss */
+/* line 78, ../sass/pages/_style-guide.scss */
 .color-swatch.orange {
   background: #e67e22;
 }
 
-/* line 81, ../sass/pages/_style-guide.scss */
+/* line 83, ../sass/pages/_style-guide.scss */
 .color-info {
   padding: 0.5em 0;
   text-align: center;
 }
 @media (min-width: 740px) {
-  /* line 81, ../sass/pages/_style-guide.scss */
+  /* line 83, ../sass/pages/_style-guide.scss */
   .color-info {
     padding: 1em 0;
   }
 }
-/* line 89, ../sass/pages/_style-guide.scss */
+/* line 91, ../sass/pages/_style-guide.scss */
 .color-info .color-hex {
   font-size: 14px;
 }
 
 /** BUTTONS =========================================**/
-/* line 96, ../sass/pages/_style-guide.scss */
+/* line 98, ../sass/pages/_style-guide.scss */
 .buttons .label {
   margin-bottom: 4px;
 }
 
-/* line 100, ../sass/pages/_style-guide.scss */
+/* line 102, ../sass/pages/_style-guide.scss */
 .buttons .btn {
   margin-bottom: 1em;
 }
 @media (min-width: 740px) {
-  /* line 100, ../sass/pages/_style-guide.scss */
+  /* line 102, ../sass/pages/_style-guide.scss */
   .buttons .btn {
     margin: 0 1em 0 0;
   }
@@ -1101,12 +1131,18 @@ button {
 .footer-nav {
   text-align: center;
 }
-/* line 11, ../sass/sections/_footer.scss */
+@media (min-width: 740px) {
+  /* line 8, ../sass/sections/_footer.scss */
+  .footer-nav {
+    float: left;
+  }
+}
+/* line 15, ../sass/sections/_footer.scss */
 .footer-nav li {
   text-align: center;
 }
 @media (min-width: 740px) {
-  /* line 11, ../sass/sections/_footer.scss */
+  /* line 15, ../sass/sections/_footer.scss */
   .footer-nav li {
     float: left;
     margin-right: 2em;
@@ -1114,45 +1150,44 @@ button {
   }
 }
 
-/* line 23, ../sass/sections/_footer.scss */
+/* line 27, ../sass/sections/_footer.scss */
 .footer-nav a {
   display: block;
   padding: 0.25em 0;
 }
 @media (max-width: 600px) {
-  /* line 23, ../sass/sections/_footer.scss */
+  /* line 27, ../sass/sections/_footer.scss */
   .footer-nav a {
     display: inline-block;
     padding: 0;
   }
 }
 
-/* line 34, ../sass/sections/_footer.scss */
+/* line 38, ../sass/sections/_footer.scss */
 .footer .follow-us {
   margin-bottom: 24px;
   text-align: center;
 }
 @media (min-width: 740px) {
-  /* line 34, ../sass/sections/_footer.scss */
+  /* line 38, ../sass/sections/_footer.scss */
   .footer .follow-us {
     float: right;
-    float: none;
   }
 }
 @media (min-width: 740px) {
-  /* line 43, ../sass/sections/_footer.scss */
+  /* line 46, ../sass/sections/_footer.scss */
   .footer .follow-us li {
     float: left;
     margin-left: 1em;
   }
 }
 
-/* line 51, ../sass/sections/_footer.scss */
+/* line 54, ../sass/sections/_footer.scss */
 .copyright {
   clear: both;
   padding-top: 18px;
 }
-/* line 55, ../sass/sections/_footer.scss */
+/* line 58, ../sass/sections/_footer.scss */
 .copyright p {
   font-size: 15px;
   text-align: center;

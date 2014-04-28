@@ -1,80 +1,49 @@
 <?php include $_SERVER['DOCUMENT_ROOT'].'/views/header.php'; ?>
 	
-	<section id="hero" class="hero">
-		<div class="wrapper">
-		    
-			
-		</div>
-	</section>
+    <div class="hero">
+        <h1 class="title">Save the Day!</h1>
+        <p>Donec tristique, felis hendrerit blandit consectetur, lectus risus semper nibh, ac faucibus ligula diam a turpis. Nunc ac dapibus nunc, sit amet posuere erat.</p>
+        <p><a href="" class="btn white">Learn More</a></p>
+    </div>
 					
 	<section id="activities" class="activities">
 		<div class="wrapper">
 		    
-		    <h2 class="section-title">Activities Near You</h2>
-		    <p class="section-intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    	    
-    	    <div class="grid activity-grid">
-    	        
-    	        <div class="col-1-3">
-    	            <a href="/class.php">
-        	            <div class="thumb">
-        	                <img src="/assets/images/thumb-activity-01.jpg" alt="" />
-                        </div>
-        	            <div class="info">
-        	                <h3 class="title">Metropolis Performing Arts Center Wiggle Giggle & Grow</h3>
-        	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue nisl cursus metus feugiat pulvinar. In hac habitasse...</p>
-        	            </div>
-        	            <div class="meta-data">
-        	                <ul class="time-age">
-        	                    <li>M, W, F 4:00 - 5:30</li>
-        	                    <li>Ages 6-9</li>
-        	                </ul>
-        	                <div class="action-link">Learn More</div>
-        	            </div>
-        	       </a>
-    	        </div>
-    	        
-    	        <div class="col-1-3">
-    	            <a href="/class.php">
-        	            <div class="thumb">
-        	                <img src="/assets/images/thumb-activity-02.jpg" alt="" />
-                        </div>
-        	            <div class="info">
-        	                <h3 class="title">Metropolis Performing Arts Center Wiggle Giggle & Grow</h3>
-        	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue nisl cursus metus feugiat pulvinar. In hac habitasse...</p>
-        	            </div>
-        	            <div class="meta-data">
-        	                <ul class="time-age">
-        	                    <li>M, W, F 4:00 - 5:30</li>
-        	                    <li>Ages 6-9</li>
-        	                </ul>
-        	                <div class="action-link">Learn More</div>
-        	            </div>
-        	       </a>
-    	        </div>
-    	        
-    	        <div class="col-1-3">
-    	            <a href="/class.php">
-        	            <div class="thumb">
-        	                <img src="/assets/images/thumb-activity-03.jpg" alt="" />
-                        </div>
-        	            <div class="info">
-        	                <h3 class="title">Metropolis Performing Arts Center Wiggle Giggle & Grow</h3>
-        	                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue nisl cursus metus feugiat pulvinar. In hac habitasse...</p>
-        	            </div>
-        	            <div class="meta-data">
-        	                <ul class="time-age">
-        	                    <li>M, W, F 4:00 - 5:30</li>
-        	                    <li>Ages 6-9</li>
-        	                </ul>
-        	                <div class="action-link">Learn More</div>
-        	            </div>
-        	       </a>
-    	        </div>
-    	        
-    	    </div>
-    	    
-    	    <a href="" class="btn-show-more">Show More</a>
+            <div class="grid">
+            
+                <article class="col-1-4 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-01.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">Jun 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+        
+                <article class="col-1-4 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-02.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">Jun 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+        
+                <article class="col-1-4 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-03.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">Jun 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+    
+                <article class="col-1-4 news-post">
+                    <div class="post-thumb"><img src="/assets/images/img-300-04.jpg"></div>
+                    <div class="post-info">
+                        <p class="post-date">Jun 11, 2014</p>
+                        <h3 class="post-title">Big news is happening every day!</h3>
+                    </div>
+                </article>
+            
+            </div>
 		
 		</div>
 	</section>

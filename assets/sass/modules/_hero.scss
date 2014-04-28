@@ -1,9 +1,13 @@
 
 .hero {
-    padding: $base*2 0;
+    padding: $base 6%;
     background: $blue;
     text-align: center;
     color: #fff;
+    
+    @include bp-min-width($medium) {
+    padding: $base*2 6%;
+    }
     
     .title {
         margin-bottom: 6px;
