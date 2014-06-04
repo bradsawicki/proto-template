@@ -182,11 +182,6 @@ em {
   background-position: 0 -374px;
 }
 */
-/*
-@mixin wave-border-top() {
-    background: image-url("wave-top.png") repeat-x left top;
-}
-*/
 /* 36px*/
 .grid {
   *zoom: 1;
