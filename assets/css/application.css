@@ -275,9 +275,9 @@ em {
 }
 
 a {
+  -webkit-transition: all 0.15s ease-in;
   -moz-transition: all 0.15s ease-in;
   -o-transition: all 0.15s ease-in;
-  -webkit-transition: all 0.15s ease-in;
   transition: all 0.15s ease-in;
   color: #e67e22;
 }
@@ -440,8 +440,9 @@ textarea {
 }
 
 .form-select select {
-  -moz-appearance: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   font-family: "Source Sans Pro", Helvetica, arial, sans-serif;
   text-indent: 0.01px;
   text-overflow: '';
@@ -524,9 +525,9 @@ fieldset .title,
 /** Buttons ============**/
 input[type="submit"],
 button {
+  -webkit-transition: background 0.15s ease-in;
   -moz-transition: background 0.15s ease-in;
   -o-transition: background 0.15s ease-in;
-  -webkit-transition: background 0.15s ease-in;
   transition: background 0.15s ease-in;
   border: none;
   font: 600 1em/1.5em "Source Sans Pro", Helvetica, arial, sans-serif;
@@ -876,9 +877,9 @@ button {
 }
 
 .mobile-menu-btn.active .bar {
+  -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   position: absolute;
   top: 6px;
@@ -886,15 +887,17 @@ button {
   background-color: #fff;
 }
 .mobile-menu-btn.active .bar:nth-child(1) {
+  -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .mobile-menu-btn.active .bar:nth-child(2) {
+  -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 .mobile-menu-btn.active .bar:nth-child(3) {
