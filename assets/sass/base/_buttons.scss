@@ -47,16 +47,16 @@ a {
     }
   }
   
-  &.white {
+  &-white {
     background: #fff;
     color: $navy;
     &:hover {
       background: $lt-grey;
     }
   }
+  
+  &-large {
+    font-size: 24px;
+  }
     
-}
-
-.btn-large {
-  font-size: 24px;
 }

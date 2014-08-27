@@ -1,27 +1,22 @@
-/* Vendor Dependencies */
 @import "compass";
 
-/* Global */
-@import "global/reset";
-@import "global/media-queries";
-@import "global/colors";
-@import "global/typography";
-@import "global/images";
-@import "global/icons";
-@import "global/mixins";
-@import "global/grid";
-@import "global/base";
-@import "global/buttons";
-@import "global/forms";
+@import "base/reset";
+@import "base/media-queries";
+@import "base/colors";
+@import "base/typography";
+@import "base/images";
+@import "base/icons";
+@import "base/mixins";
+@import "base/grid";
+@import "base/layout";
+@import "base/buttons";
+@import "base/forms";
 
-/* Modules */
-@import "modules/hero";
-@import "modules/news-posts";
-@import "modules/progress-bar";
+@import "components/hero";
+@import "components/news-posts";
+@import "components/progress-bar";
 
-/* Pages */
 @import "pages/style-guide";
 
-/* Sections */
 @import "sections/header";
 @import "sections/footer";
